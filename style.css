@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.main_container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 580px;
+    width: 400px;
+    align-items: center;
+    font-family: cursive;
+    background-color: slateblue;
+    flex-direction:column;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 1px black;
+}
+.calender_container{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 4px 4px 8px 1px black;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+.time_container{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 4px 4px 8px 1px black;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+.app_name{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+}
+.month_name{
+    margin: 0;
+    background-color: orangered;
+    color: white; 
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.day_name{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    color: darkgray;
+
+}
+.date{
+    font-size: 90px;
+    margin: 0;
+    font-weight: bold;
+}
+.year{
+    margin: 20px 0;
+    font-size: 30px;
+    color: darkgray;
+    font-weight: 500;
+
+}
+.time{
+    margin: 20px;
+    font-size: 30px;
+    color: blue;
+    font-weight: 500;
+}
