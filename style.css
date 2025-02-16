@@ -82,6 +82,11 @@ body {
     color: blue;
     font-weight: 500;
 }
+.my_Name{
+    align-self: self-end;
+    color: white;
+    margin: 0px 30px;
+}
 
 /* Responsive Design */
 @media (max-width: 480px) {
